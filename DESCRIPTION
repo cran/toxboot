@@ -1,8 +1,8 @@
 Package: toxboot
 Type: Package
 Title: Bootstrap Methods for 'ToxCast' High Throughput Screening Data
-Version: 0.1.0
-Date: 2016-08-11
+Version: 0.1.1
+Date: 2016-08-23
 Authors@R: person(c("Eric", "D."), "Watt",
                   email = "eric@ericdwatt.com",
                   role = c("aut", "cre"))
@@ -14,14 +14,14 @@ Description: Provides methods to use bootstrapping to quantify uncertainty
 License: MIT + file LICENSE
 LazyData: TRUE
 Depends: R (>= 3.2)
-Imports: data.table, rmongodb, tcpl (>= 1.0), DBI, RMySQL
-Suggests: ggplot2, knitr, parallel, rmarkdown, testthat, magrittr,
-        pander, covr
+Imports: data.table, tcpl (>= 1.0),
+Suggests: DBI, RMySQL, rmongodb, ggplot2, knitr, parallel, rmarkdown,
+        testthat, magrittr, pander, covr
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
 NeedsCompilation: no
-Packaged: 2016-08-12 14:34:55 UTC; ericwatt
+Packaged: 2016-08-23 16:04:52 UTC; ericwatt
 Author: Eric D. Watt [aut, cre]
 Maintainer: Eric D. Watt <eric@ericdwatt.com>
 Repository: CRAN
-Date/Publication: 2016-08-12 16:54:44
+Date/Publication: 2016-08-23 20:00:18
