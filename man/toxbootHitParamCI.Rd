@@ -18,7 +18,7 @@ the resulting data.table from \code{tcplLoadData(lvl = 5L)}.}
 \value{
 dat_boot, a data.table equivalent to dat_db with added columns coff
   (from dat_pipe), maic (winning model aic), modl (winning model), boot_hitc,
-  modl_ga, modl_gw, and modl_tp
+  modl_ga, modl_gw, modl_la, modl_lw, and modl_tp
 }
 \description{
 \code{toxbootHitParamCI} takes input dose response data and returns a matrix
@@ -38,4 +38,3 @@ Based upon mc5 processing in \code{tcpl}.
   set to the corresponding values in the winning model. Else, these
   parameters are set to NA.
 }
-

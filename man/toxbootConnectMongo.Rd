@@ -10,6 +10,6 @@ toxbootConnectMongo()
 mongo, a mongo connection object.
 }
 \description{
-\code{toxbootConnectMongo} imports toxboot options and creates the connection to the mongoDB.
+\code{toxbootConnectMongo} imports toxboot options and creates the connection
+to the mongoDB.
 }
-

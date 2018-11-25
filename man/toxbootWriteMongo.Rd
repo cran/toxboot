@@ -4,8 +4,8 @@
 \alias{toxbootWriteMongo}
 \title{Write bootstrap results to mongoDB}
 \usage{
-toxbootWriteMongo(dat, this_m4id, boot_method, replicates, logc_vect, starttime,
-  concvals, datchemresult, datsample)
+toxbootWriteMongo(dat, this_m4id, boot_method, replicates, logc_vect,
+  starttime, concvals, datchemresult, datsample)
 }
 \arguments{
 \item{dat}{A data.table. Required columns are: logc: numeric, contains
@@ -40,9 +40,8 @@ written to the database as well.}
 }
 \details{
 The fitted results are assembled
-  into a bson object using \code{rmongodb} and written to the mongoDB.
+  into a json object using \code{jsonlite} and written to the mongoDB.
 }
 \seealso{
 \code{\link{toxboot}}
 }
-

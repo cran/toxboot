@@ -13,7 +13,7 @@ hill_curve(hill_tp, hill_ga, hill_gw, lconc)
 
 \item{hill_gw}{Numeric, hill coefficient parameter.}
 
-\item{lconc}{Numeric, concentration (in log uM) to calcuate the response.}
+\item{lconc}{Numeric, concentration (in log uM) to calculate the response.}
 }
 \value{
 y Numeric, the calculated response value at lconc.
@@ -29,4 +29,3 @@ equation resulting from a given fit.
 \examples{
 hill_curve(hill_tp = 100, hill_ga = 0.5, hill_gw = 1, lconc = 0)
 }
-

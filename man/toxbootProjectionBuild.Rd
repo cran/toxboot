@@ -9,7 +9,7 @@ toxbootProjectionBuild(fields, id_val = 0L)
 \arguments{
 \item{fields}{string vector, fields to return.}
 
-\item{id_val}{integer 0L or 1L. By default 0L, which will supress Object_ID
+\item{id_val}{integer 0L or 1L. By default 0L, which will suppress Object_ID
 from the projection. This unique ID is often not needed. Can be set to 1L
 to include in projection.}
 }
@@ -21,4 +21,3 @@ projection, a named list where names are the fields to return in the
 \code{toxbootProjectionBuild} builds a list that determined which fields
 are returned.
 }
-

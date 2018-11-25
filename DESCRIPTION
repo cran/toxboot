@@ -1,8 +1,8 @@
 Package: toxboot
 Type: Package
 Title: Bootstrap Methods for 'ToxCast' High Throughput Screening Data
-Version: 0.1.1
-Date: 2016-08-23
+Version: 0.2.0
+Date: 2018-11-24
 Authors@R: person(c("Eric", "D."), "Watt",
                   email = "eric@ericdwatt.com",
                   role = c("aut", "cre"))
@@ -15,13 +15,15 @@ License: MIT + file LICENSE
 LazyData: TRUE
 Depends: R (>= 3.2)
 Imports: data.table, tcpl (>= 1.0),
-Suggests: DBI, RMySQL, rmongodb, ggplot2, knitr, parallel, rmarkdown,
-        testthat, magrittr, pander, covr
+Suggests: DBI, RMySQL, mongolite (>= 0.9.0), jsonlite (>= 1.1),
+        ggplot2, knitr, parallel, rmarkdown, testthat, magrittr,
+        pander, covr
 VignetteBuilder: knitr
-RoxygenNote: 5.0.1
+Encoding: UTF-8
+RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2016-08-23 16:04:52 UTC; ericwatt
+Packaged: 2018-11-25 05:19:08 UTC; ericwatt
 Author: Eric D. Watt [aut, cre]
 Maintainer: Eric D. Watt <eric@ericdwatt.com>
 Repository: CRAN
-Date/Publication: 2016-08-23 20:00:18
+Date/Publication: 2018-11-25 18:00:03 UTC

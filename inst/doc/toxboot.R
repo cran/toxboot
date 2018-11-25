@@ -44,10 +44,11 @@ dim(dat)
 
 ## ----mongo_toxboot, eval = FALSE-----------------------------------------
 #  toxbootConf(mongo_host = "123.45.67.89",
-#              db = "bootstrap",
-#              DBNS = "bootstrap.prod_external_invitrodb_v2",
+#              collection = "prod_external_invitrodb_v2"
 #              user = "username",
-#              pass = "password")
+#              pass = "password",
+#              db = "bootstrap",
+#              port = "27017")
 #  
 #  toxbootmc(dat = erl3data,
 #            boot_method = "smooth",

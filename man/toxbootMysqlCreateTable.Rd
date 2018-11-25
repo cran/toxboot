@@ -4,7 +4,11 @@
 \alias{toxbootMysqlCreateTable}
 \title{Function to create properly formatted toxboot table in MySQL}
 \usage{
-toxbootMysqlCreateTable()
+toxbootMysqlCreateTable(table_name = NULL)
+}
+\arguments{
+\item{table_name}{string length 1, the name of the MySQL table format and
+create}
 }
 \description{
 \code{toxbootMysqlCreateTable} creates table with correct column types which
@@ -14,4 +18,3 @@ will be written to by \code{toxboot} and \code{toxbootmc}.
 Caution. This function will delete the current toxboot table if it
   exists. Still need to add some safeguards.
 }
-
